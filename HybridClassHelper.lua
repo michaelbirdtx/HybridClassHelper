@@ -1,6 +1,15 @@
+local BATTLEMAGE_INTRO_TEXT = "Congratulations, you are now a Battlemage!\n\n"..
+    "Your new Hybrid Class combines all the abilities of a Mage, with several new abilities that make you a formidable\nmelee fighter."..
+    "Your Stamina and Armor have been increased, and you will be able to dual-wield one-handed weapons.\n\n"..
+    "You also start with two new abilities: Shoulder Charge and Arcane Cleave. Shoulder Charge allows you to rush an opponent and stun them with your impact."..
+    "Arcane Cleave allows you to strike multiple opponents with a single blow.\n\n"..
+    "To speed you in your quests, cast Mount Speed+ to enjoy a super-fast riding experience!\n\n"..
+    "In addition to these abilities, you will gain additional skills as you level up. And level up you will, as your XP will accrue much faster as a Hybrid Class.\n\n"..
+    "Now, go forth, and become legend!"
+
 function HybridClassHelper_OnLoad()
     this:RegisterEvent("CHAT_MSG_ADDON");
-end
+    end
 
 function HybridClassHelper_OnEvent()
 	if (event == "CHAT_MSG_ADDON" and arg1 == "HybridClassHelper") then
@@ -62,4 +71,5 @@ function SetHybridActionBar(hybridClass)
         PlaceAction(11);
         ClearCursor();
     end
+
 end

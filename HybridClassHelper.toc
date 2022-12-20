@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: HybridClassHelper
 ## Author: Mpromptu Gaming
-## Version: 1.0
+## Version: 1.0.1
 
 HybridClassHelper.lua
 HybridClassHelper.xml

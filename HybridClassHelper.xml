@@ -4,8 +4,10 @@
 <Frame name="frmMain">
   <Scripts>
    <OnEvent>
+    HybridClassHelper_OnEvent();
    </OnEvent>
    <OnLoad>
+    HybridClassHelper_OnLoad();
    </OnLoad>
   </Scripts>
  </Frame>

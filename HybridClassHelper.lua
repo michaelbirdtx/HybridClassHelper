@@ -70,6 +70,8 @@ function SetHybridActionBar(hybridClass)
         PickupSpell("Arcane Intellect");
         PlaceAction(11);
         ClearCursor();
+        PickupSpell("Frost Armor");
+        PlaceAction(12);
+        ClearCursor();
     end
-
 end

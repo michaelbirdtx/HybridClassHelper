@@ -52,7 +52,7 @@ function SetHybridActionBar(hybridClass)
         setActionSlot("Fire Blast", 4);
         setActionSlot("Fireball", 5);
         setActionSlot("Frost Nova", 6);
-        setActionSlot("Arcane Intellect", 10);        
+        setActionSlot("Arcane Intellect", 11);        
         setActionSlot("Frost Armor", 12);
     end
     if (hybridClass == "SHADOWWARRIOR") then
@@ -62,26 +62,31 @@ function SetHybridActionBar(hybridClass)
         setActionSlot("Victory Rush", 4);
         setActionSlot("Thunder Clap", 5);
         setActionSlot("Resist Shadow", 10);
-        setActionSlot("Shadowform", 12);
+        setActionSlot("Shadowform", 11);
+        setActionSlot("Battle Shout", 12);
         setActionSlot("Auto Attack", 73);
         setActionSlot("Shadowstep", 74);
         setActionSlot("Shadowsurge", 75);
         setActionSlot("Victory Rush", 76);
         setActionSlot("Thunder Clap", 77);
         setActionSlot("Resist Shadow", 82);
-        setActionSlot("Shadowform", 84);
+        setActionSlot("Shadowform", 83);
+        setActionSlot("Battle Shout", 84);
         setActionSlot("Auto Attack", 85);
         setActionSlot("Shadowstep", 86);
         setActionSlot("Shadowsurge", 87);
         setActionSlot("Victory Rush", 88);
         setActionSlot("Thunder Clap", 89);
         setActionSlot("Resist Shadow", 94);
-        setActionSlot("Shadowform", 96);
+        setActionSlot("Shadowform", 95);
+        setActionSlot("Battle Shout", 96);
         setActionSlot("Auto Attack", 97);
         setActionSlot("Shadowstep", 98);
         setActionSlot("Shadowsurge", 99);
         setActionSlot("Victory Rush", 100);
         setActionSlot("Thunder Clap", 101);
-        setActionSlot("Shadowform", 107);
+        setActionSlot("Resist Shadow", 107);
+        setActionSlot("Shadowform", 108);
+        setActionSlot("Battle Shout", 109);
     end
 end
